@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Product Card Animation
+	</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>  
+
+  <div class="shopping-cart active" data-product-count="0" id="shop">
+    <span class="cart-icon" >&#128722;</span>
+  </div>
+  
+
+
+
+   <div class="container">  
+     <div class="card">  
+       <div class="imgBx">  
+         <img src="baskets-noirrose-fille-nike-revolution-6-removebg-preview.png" alt="nike-air-shoe" class="card-img">  
+       </div>  
+       <div class="contentBx">  
+         <h2>NIKE 1 </h2>  
+         <div class="size">  
+           <h3>Size :</h3>  
+           <span>7</span>  
+           <span>8</span>  
+           <span>9</span>  
+           <span>10</span>  
+         </div>  
+         <div class="color">  
+           <h3>Color :</h3>  
+           <span></span>  
+           <span></span>  
+           <span></span>  
+         </div>  
+        
+         <p class="card-price">$450.99</p>
+        
+         <a href="#" class="btn btn-border  add-to-cart">add to cart</a>  
+         <a href="" class=" remove-button">annuler</a>
+       </div>  
+     </div> 
+     <!--  -->
+     
+
+   </div>  
+
+   <div class="container">  
+    <div class="card">  
+      <div class="imgBx">  
+        <img src="Capture_d_écran_2023-09-09_135058-removebg-preview.png" alt="nike-air-shoe" class="img2">  
+      </div>  
+      <div class="contentBx">  
+        <h2>Nike 1</h2>  
+        <div class="size">  
+          <h3>Size :</h3>  
+          <span>7</span>  
+          <span>8</span>  
+          <span>9</span>  
+          <span>10</span>  
+        </div>  
+        <div class="color">  
+          <h3>Color :</h3>  
+          <span></span>  
+          <span></span>  
+          <span></span>  
+        </div> 
+        <p class="card-price">$650.99</p> 
+     
+        <a href="#">add to cart</a> 
+        <a href="" class=" remove-button">annuler</a>
+      </div>  
+    </div>  
+  </div>  
+
+
+ 
+
+  <div class="container">  
+    <div class="card">  
+      <div class="imgBx">  
+        <img src="Capture_d_écran_2023-09-09_135530-removebg-preview.png" alt="nike-air-shoe" class="img3">  
+      </div>  
+      <div class="contentBx">  
+        <h2>Nike Shoes 3</h2>  
+        <div class="size">  
+          <h3>Size :</h3>  
+          <span>7</span>  
+          <span>8</span>  
+          <span>9</span>  
+          <span>40</span>  
+        </div>  
+       <div class="color">
+          <h3>Color :</h3>  
+          <span></span>  
+          <span></span>  
+          <span></span>  
+        </div>  
+        <p class="card-price">$450.99</p>
+     
+         
+         <a href="#" class="btn btn-border add-to-cart" 
+         data-product-name="Nike Shoes" data-product-price="100.00">add to cart</a>  
+        
+
+         <a href="" class=" remove-button">annuler</a>
+      </div>  
+    </div>  
+  </div>
+
+<!-- <div class="card">
+            <div class="card-content">
+                <img src="images/laptop 3.png" alt="" class="card-img">
+                <h1 class="card-title">HP Spectre x360 15</h1>
+                <div class="card-body">            card-body=contentbx
+                    <div class="card-star">
+                        <span class="rating-value">4</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <p class="card-price">$550.99</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Buy Now</button>
+                    <button class="btn btn-border add-to-cart">Add To Cart</button>
+                </div>
+            </div>
+        </div> -->
+<div class="arrows">
+  <span class="arrow left-arrow" onclick="prevSlide()">&#10094;</span>
+  <span class="arrow right-arrow" onclick="nextSlide()">&#10095;</span>
+</div>
+
+<div id="cart-none">
+
+  <h2>shopping-cart</h2>
+  <ul id="cart-list">
+    <span> <li> </li></span>
+    <span> <li> </li></span>
+    <span> <li></li></span>
+  </ul>
+ 
+</div>  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<script src="script.js"></script>
+
+
+</body>  
+</html>  
